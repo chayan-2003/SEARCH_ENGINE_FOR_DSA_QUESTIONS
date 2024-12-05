@@ -35,10 +35,10 @@ const { wordsToNumbers } = require("words-to-numbers");
  */
 
 //Reading the IDF Array
-const IDF = require("./idf");
+const IDF = require("./src/idf");
 
 // Reading the keywords array
-const keywords = require("./keywords");
+const keywords = require("./src/keywords");
 
 // Reading the length array
 const length = require("./length");
